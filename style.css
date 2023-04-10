@@ -1,0 +1,43 @@
+body {
+    background-color: #4285F4;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  #word-container {
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  #button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: #4285F4;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  button:active {
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    transform: translate3d(0, 5px, 0);
+  }
+  
+  word {
+    color: black;
+  }
